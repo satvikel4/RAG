@@ -24,7 +24,7 @@ This repository provides a solution for managing and querying document embedding
 ### Embedding Documents
 To embed documents and store them in the Chroma database, run:
 sh
-python embed_documents.py [--reset]
+python populate_database.py [--reset]
 
 - --reset: Optional argument to clear the existing database before adding new documents.
 
